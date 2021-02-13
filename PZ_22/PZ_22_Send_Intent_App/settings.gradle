@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "PZ_22_Send_Intent_App"
