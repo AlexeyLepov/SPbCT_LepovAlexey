@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Контрольная работа № 2"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:onClick="onClickBtn1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="80dp"
+        android:text="1. Работа с экраном"></Button>
+
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="onClickBtn2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:text="2. Простейшая арифметика"></Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:onClick="onClickBtn3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="180dp"
+        android:text="3. Условный оператор и арифметика"></Button>
+
+    <Button
+        android:id="@+id/btn4"
+        android:onClick="onClickBtn4"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="230dp"
+        android:text="4. Циклы и арифметика"></Button>
+
+    <Button
+        android:id="@+id/btn5"
+        android:onClick="onClickBtn5"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="280dp"
+        android:text="5. Работа с символами"></Button>
+
+
+
+
+</RelativeLayout>
